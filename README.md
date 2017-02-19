@@ -9,7 +9,7 @@ Using https://github.com/aaronabentheuer/AAFaceDetection (Visage) that has been 
 
 * SmileChat lets you use your face to show how you feel while you chat with friends.
 
-* It's currently using the above repo to classify facial states and provide a approximate result.
+* It's currently using the above repo to classify facial states and provide an approximate result.
 
 * It has a few UI issues (updates labels very quickly, quirks in basic functionality), but it is mostly a proof of concept.
 
