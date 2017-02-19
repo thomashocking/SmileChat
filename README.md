@@ -3,7 +3,7 @@ Facial Detection/Compter Vision Chat
 
 Using https://github.com/aaronabentheuer/AAFaceDetection (Visage) that has been coverted to Swift 3.0
 
-[![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/thomashocking/SmileChat/master/LICENSE)
+[![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/thomashocking/SmileChat/blob/master/LICENSE)
 [![Swift 3](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org)
 [![Twitter: @tommahhockin](https://img.shields.io/badge/Contact-Twitter-blue.svg?style=flat)](https://twitter.com/tommahhockin)
 
