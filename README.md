@@ -7,12 +7,13 @@ Using https://github.com/aaronabentheuer/AAFaceDetection (Visage) that has been 
 [![Swift 3](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org)
 [![Twitter: @tommahhockin](https://img.shields.io/badge/Contact-Twitter-blue.svg?style=flat)](https://twitter.com/tommahhockin)
 
-SmileChat lets you use your face to show how you feel while you chat with friends.
-It's currently using the above repo to classify facial states and provide a approximate result.
+*SmileChat lets you use your face to show how you feel while you chat with friends.
 
-It has a few UI issues (updates labels very quickly, quirks in basic functionality), but it is mostly a proof of concept.
+*It's currently using the above repo to classify facial states and provide a approximate result.
 
-Supports Facebook login, but other types are welcome to be added.
+*It has a few UI issues (updates labels very quickly, quirks in basic functionality), but it is mostly a proof of concept.
+
+*Supports Facebook login, but other types are welcome to be added.
 
 <h3 align="center">
 <img src="SmileLast.png" alt="Screenshot of Smile Chat for iOS" />
