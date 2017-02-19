@@ -1,0 +1,129 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKShareKit (~> 4.15)
+  - FBSDKCoreKit (4.18.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.18.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.18.0):
+    - FBSDKCoreKit
+  - Firebase (3.11.0):
+    - Firebase/Core (= 3.11.0)
+  - Firebase/Auth (3.11.0):
+    - Firebase/Core
+    - FirebaseAuth (= 3.1.0)
+  - Firebase/Core (3.11.0):
+    - FirebaseAnalytics (= 3.6.0)
+    - FirebaseCore (= 3.4.6)
+  - Firebase/Database (3.11.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 3.1.1)
+  - Firebase/Storage (3.11.0):
+    - Firebase/Core
+    - FirebaseStorage (= 1.0.5)
+  - FirebaseAnalytics (3.6.0):
+    - FirebaseCore (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (3.1.0):
+    - FirebaseAnalytics (~> 3.6)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (3.4.6):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (3.1.1):
+    - FirebaseAnalytics (~> 3.5)
+  - FirebaseInstanceID (1.0.8)
+  - FirebaseStorage (1.0.5):
+    - FirebaseAnalytics (~> 3.5)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseUI/Auth (1.0.0):
+    - Firebase/Auth
+  - FirebaseUI/Database (1.0.0):
+    - Firebase/Database
+  - FirebaseUI/Facebook (1.0.0):
+    - FBSDKLoginKit (~> 4.0)
+    - FirebaseUI/Auth
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GrowingTextView (0.2.0)
+  - GTMSessionFetcher/Core (1.1.8)
+
+DEPENDENCIES:
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - Firebase
+  - Firebase/Core
+  - Firebase/Storage
+  - FirebaseUI/Auth
+  - FirebaseUI/Database
+  - FirebaseUI/Facebook
+  - GrowingTextView (from `https://github.com/KennethTsang/GrowingTextView.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  GrowingTextView:
+    :branch: master
+    :git: https://github.com/KennethTsang/GrowingTextView.git
+
+CHECKOUT OPTIONS:
+  GrowingTextView:
+    :commit: e43d1cf622dff7c951add020e66bddb5a708d916
+    :git: https://github.com/KennethTsang/GrowingTextView.git
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FacebookShare: 8e9ee8ea06505e6a1d3d719b0cc63e840fb8aaeb
+  FBSDKCoreKit: 15fef8804a4629f98c6f4e55e81a76c9d725d85e
+  FBSDKLoginKit: 6773073e970b2b15fb12e451ce7f11da0532b880
+  FBSDKShareKit: 0b8d6cc3f103c75297eb3c62caec284a2ccf1b9e
+  Firebase: b8134e285eb33201115bc688bc5d7f112923bc1f
+  FirebaseAnalytics: 9c67af0ebeb8d2146c9b4ea2616439affa947b58
+  FirebaseAuth: b436e4ecebe068bf8e8c6e4e29de5756ffe7ee24
+  FirebaseCore: 03da1cb32615569bbc2830a22f9ad753d9a02ef5
+  FirebaseDatabase: 6de92187481ff0e8e124064f21742e95ee883b02
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  FirebaseStorage: 5738284835edb57f0e81d4ae5832bb17c1e4b5fa
+  FirebaseUI: 82bd64fc3fc5a9451c37a720aee813990e727cf1
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GrowingTextView: 048c6ef8da6adfa89f010a9f11d5be6f569c75d7
+  GTMSessionFetcher: 6f8d8b28b7e345549ac471071608170b31cb4977
+
+PODFILE CHECKSUM: efc15eb8fda773e8162197ca4a363169efac877b
+
+COCOAPODS: 1.2.0.rc.1

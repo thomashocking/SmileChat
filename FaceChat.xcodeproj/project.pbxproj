@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B535EE1BD606D1AD1394E0 /* Pods_FaceChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB755F3A8FB261C1C176C6A6 /* Pods_FaceChat.framework */; };
 		E91E00171E3C2AA800A27E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E00161E3C2AA800A27E41 /* AppDelegate.swift */; };
 		E91E00191E3C2AA800A27E41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E00181E3C2AA800A27E41 /* ViewController.swift */; };
 		E91E001C1E3C2AA800A27E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91E001A1E3C2AA800A27E41 /* Main.storyboard */; };
 		E91E001E1E3C2AA800A27E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91E001D1E3C2AA800A27E41 /* Assets.xcassets */; };
 		E91E00211E3C2AA800A27E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91E001F1E3C2AA800A27E41 /* LaunchScreen.storyboard */; };
+		E91E00291E3C312A00A27E41 /* Visage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E00281E3C312A00A27E41 /* Visage.swift */; };
+		E91E002B1E3C328800A27E41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E91E002A1E3C328800A27E41 /* GoogleService-Info.plist */; };
+		E936CC1F1E3EF32E004EFB35 /* TextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E936CC1E1E3EF32E004EFB35 /* TextMessageCell.swift */; };
+		E936CC211E3EF38E004EFB35 /* TextMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E936CC201E3EF38E004EFB35 /* TextMessageCell.xib */; };
+		E95376BB1E3DAF4B00678551 /* FacebookLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = E95376B81E3DAF4B00678551 /* FacebookLogin.png */; };
+		E95376BC1E3DAF4B00678551 /* FacebookLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95376B91E3DAF4B00678551 /* FacebookLogin@2x.png */; };
+		E95376BD1E3DAF4B00678551 /* FacebookLogin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95376BA1E3DAF4B00678551 /* FacebookLogin@3x.png */; };
+		E95376BF1E3DB4E400678551 /* NewChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95376BE1E3DB4E400678551 /* NewChatViewController.swift */; };
+		E95376C21E3DC52B00678551 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95376C01E3DC52B00678551 /* FriendTableViewCell.swift */; };
+		E95376C31E3DC52B00678551 /* FriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95376C11E3DC52B00678551 /* FriendTableViewCell.xib */; };
+		E9682B2A1E3EC89E000A5A4A /* EditableFUITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9682B291E3EC89E000A5A4A /* EditableFUITableViewDataSource.swift */; };
+		E9682B2C1E3EE737000A5A4A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9682B2B1E3EE737000A5A4A /* ChatViewController.swift */; };
+		E9682B2E1E3EED4F000A5A4A /* ChatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9682B2D1E3EED4F000A5A4A /* ChatExtension.swift */; };
+		E9682B301E3EF0F0000A5A4A /* SmileMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9682B2F1E3EF0F0000A5A4A /* SmileMessage.swift */; };
+		E9682B321E3EF145000A5A4A /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9682B311E3EF145000A5A4A /* MessageTableViewCell.swift */; };
+		E9D965291E3C436A0031D9D8 /* SmileUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D965281E3C436A0031D9D8 /* SmileUser.swift */; };
+		E9D9652B1E3C43B80031D9D8 /* SmileBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9652A1E3C43B80031D9D8 /* SmileBase.swift */; };
+		E9F751E81E3EC429004CCA22 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F751E71E3EC429004CCA22 /* ChatsViewController.swift */; };
+		E9F751ED1E3EC593004CCA22 /* GroupTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F751EB1E3EC593004CCA22 /* GroupTableCell.swift */; };
+		E9F751EE1E3EC593004CCA22 /* GroupTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F751EC1E3EC593004CCA22 /* GroupTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51FE88F80B9BBF531E625300 /* Pods-FaceChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceChat/Pods-FaceChat.debug.xcconfig"; sourceTree = "<group>"; };
+		A8857DCC262EC9726FD849C8 /* Pods-FaceChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceChat/Pods-FaceChat.release.xcconfig"; sourceTree = "<group>"; };
+		AB755F3A8FB261C1C176C6A6 /* Pods_FaceChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91E00131E3C2AA800A27E41 /* FaceChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91E00161E3C2AA800A27E41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E91E00181E3C2AA800A27E41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +46,26 @@
 		E91E001D1E3C2AA800A27E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E91E00201E3C2AA800A27E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E91E00221E3C2AA800A27E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91E00281E3C312A00A27E41 /* Visage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visage.swift; sourceTree = "<group>"; };
+		E91E002A1E3C328800A27E41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E936CC1E1E3EF32E004EFB35 /* TextMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextMessageCell.swift; sourceTree = "<group>"; };
+		E936CC201E3EF38E004EFB35 /* TextMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextMessageCell.xib; sourceTree = "<group>"; };
+		E95376B81E3DAF4B00678551 /* FacebookLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FacebookLogin.png; sourceTree = "<group>"; };
+		E95376B91E3DAF4B00678551 /* FacebookLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FacebookLogin@2x.png"; sourceTree = "<group>"; };
+		E95376BA1E3DAF4B00678551 /* FacebookLogin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FacebookLogin@3x.png"; sourceTree = "<group>"; };
+		E95376BE1E3DB4E400678551 /* NewChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatViewController.swift; sourceTree = "<group>"; };
+		E95376C01E3DC52B00678551 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		E95376C11E3DC52B00678551 /* FriendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendTableViewCell.xib; sourceTree = "<group>"; };
+		E9682B291E3EC89E000A5A4A /* EditableFUITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableFUITableViewDataSource.swift; sourceTree = "<group>"; };
+		E9682B2B1E3EE737000A5A4A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E9682B2D1E3EED4F000A5A4A /* ChatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatExtension.swift; sourceTree = "<group>"; };
+		E9682B2F1E3EF0F0000A5A4A /* SmileMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileMessage.swift; sourceTree = "<group>"; };
+		E9682B311E3EF145000A5A4A /* MessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		E9D965281E3C436A0031D9D8 /* SmileUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileUser.swift; sourceTree = "<group>"; };
+		E9D9652A1E3C43B80031D9D8 /* SmileBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileBase.swift; sourceTree = "<group>"; };
+		E9F751E71E3EC429004CCA22 /* ChatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		E9F751EB1E3EC593004CCA22 /* GroupTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableCell.swift; sourceTree = "<group>"; };
+		E9F751EC1E3EC593004CCA22 /* GroupTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +73,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B535EE1BD606D1AD1394E0 /* Pods_FaceChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		587FA79F40F05D85C06D653C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB755F3A8FB261C1C176C6A6 /* Pods_FaceChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78DCA31CF36678B1A41DA946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51FE88F80B9BBF531E625300 /* Pods-FaceChat.debug.xcconfig */,
+				A8857DCC262EC9726FD849C8 /* Pods-FaceChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E91E000A1E3C2AA800A27E41 = {
 			isa = PBXGroup;
 			children = (
 				E91E00151E3C2AA800A27E41 /* FaceChat */,
 				E91E00141E3C2AA800A27E41 /* Products */,
+				78DCA31CF36678B1A41DA946 /* Pods */,
+				587FA79F40F05D85C06D653C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +118,50 @@
 		E91E00151E3C2AA800A27E41 /* FaceChat */ = {
 			isa = PBXGroup;
 			children = (
+				E95376B71E3DAF2A00678551 /* Assets */,
+				E9D965271E3C42CF0031D9D8 /* Models */,
 				E91E00161E3C2AA800A27E41 /* AppDelegate.swift */,
 				E91E00181E3C2AA800A27E41 /* ViewController.swift */,
 				E91E001A1E3C2AA800A27E41 /* Main.storyboard */,
+				E9682B2B1E3EE737000A5A4A /* ChatViewController.swift */,
+				E936CC1E1E3EF32E004EFB35 /* TextMessageCell.swift */,
+				E936CC201E3EF38E004EFB35 /* TextMessageCell.xib */,
+				E9682B311E3EF145000A5A4A /* MessageTableViewCell.swift */,
+				E9682B2D1E3EED4F000A5A4A /* ChatExtension.swift */,
+				E9682B291E3EC89E000A5A4A /* EditableFUITableViewDataSource.swift */,
+				E9F751E71E3EC429004CCA22 /* ChatsViewController.swift */,
+				E9F751EB1E3EC593004CCA22 /* GroupTableCell.swift */,
+				E9F751EC1E3EC593004CCA22 /* GroupTableCell.xib */,
+				E95376BE1E3DB4E400678551 /* NewChatViewController.swift */,
+				E91E00281E3C312A00A27E41 /* Visage.swift */,
 				E91E001D1E3C2AA800A27E41 /* Assets.xcassets */,
 				E91E001F1E3C2AA800A27E41 /* LaunchScreen.storyboard */,
 				E91E00221E3C2AA800A27E41 /* Info.plist */,
+				E91E002A1E3C328800A27E41 /* GoogleService-Info.plist */,
+				E95376C01E3DC52B00678551 /* FriendTableViewCell.swift */,
+				E95376C11E3DC52B00678551 /* FriendTableViewCell.xib */,
 			);
 			path = FaceChat;
+			sourceTree = "<group>";
+		};
+		E95376B71E3DAF2A00678551 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E95376B81E3DAF4B00678551 /* FacebookLogin.png */,
+				E95376B91E3DAF4B00678551 /* FacebookLogin@2x.png */,
+				E95376BA1E3DAF4B00678551 /* FacebookLogin@3x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		E9D965271E3C42CF0031D9D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9D965281E3C436A0031D9D8 /* SmileUser.swift */,
+				E9D9652A1E3C43B80031D9D8 /* SmileBase.swift */,
+				E9682B2F1E3EF0F0000A5A4A /* SmileMessage.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E91E00251E3C2AA800A27E41 /* Build configuration list for PBXNativeTarget "FaceChat" */;
 			buildPhases = (
+				BECCB80126F42D0C1D16291D /* [CP] Check Pods Manifest.lock */,
 				E91E000F1E3C2AA800A27E41 /* Sources */,
 				E91E00101E3C2AA800A27E41 /* Frameworks */,
 				E91E00111E3C2AA800A27E41 /* Resources */,
+				9591F55B62E9190F87EEFC26 /* [CP] Embed Pods Frameworks */,
+				BB4661A4D55AB333CFFB35C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +200,7 @@
 					E91E00121E3C2AA800A27E41 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Q69A544BPS;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,13 +228,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E936CC211E3EF38E004EFB35 /* TextMessageCell.xib in Resources */,
 				E91E00211E3C2AA800A27E41 /* LaunchScreen.storyboard in Resources */,
+				E9F751EE1E3EC593004CCA22 /* GroupTableCell.xib in Resources */,
+				E95376BD1E3DAF4B00678551 /* FacebookLogin@3x.png in Resources */,
+				E91E002B1E3C328800A27E41 /* GoogleService-Info.plist in Resources */,
+				E95376C31E3DC52B00678551 /* FriendTableViewCell.xib in Resources */,
 				E91E001E1E3C2AA800A27E41 /* Assets.xcassets in Resources */,
+				E95376BB1E3DAF4B00678551 /* FacebookLogin.png in Resources */,
+				E95376BC1E3DAF4B00678551 /* FacebookLogin@2x.png in Resources */,
 				E91E001C1E3C2AA800A27E41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9591F55B62E9190F87EEFC26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceChat/Pods-FaceChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB4661A4D55AB333CFFB35C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceChat/Pods-FaceChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BECCB80126F42D0C1D16291D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E91E000F1E3C2AA800A27E41 /* Sources */ = {
@@ -138,7 +297,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E91E00191E3C2AA800A27E41 /* ViewController.swift in Sources */,
+				E95376BF1E3DB4E400678551 /* NewChatViewController.swift in Sources */,
+				E9682B2C1E3EE737000A5A4A /* ChatViewController.swift in Sources */,
+				E9682B2E1E3EED4F000A5A4A /* ChatExtension.swift in Sources */,
+				E91E00291E3C312A00A27E41 /* Visage.swift in Sources */,
 				E91E00171E3C2AA800A27E41 /* AppDelegate.swift in Sources */,
+				E9D9652B1E3C43B80031D9D8 /* SmileBase.swift in Sources */,
+				E9682B321E3EF145000A5A4A /* MessageTableViewCell.swift in Sources */,
+				E9D965291E3C436A0031D9D8 /* SmileUser.swift in Sources */,
+				E936CC1F1E3EF32E004EFB35 /* TextMessageCell.swift in Sources */,
+				E9F751E81E3EC429004CCA22 /* ChatsViewController.swift in Sources */,
+				E9F751ED1E3EC593004CCA22 /* GroupTableCell.swift in Sources */,
+				E95376C21E3DC52B00678551 /* FriendTableViewCell.swift in Sources */,
+				E9682B2A1E3EC89E000A5A4A /* EditableFUITableViewDataSource.swift in Sources */,
+				E9682B301E3EF0F0000A5A4A /* SmileMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +429,7 @@
 		};
 		E91E00261E3C2AA800A27E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51FE88F80B9BBF531E625300 /* Pods-FaceChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q69A544BPS;
@@ -270,6 +443,7 @@
 		};
 		E91E00271E3C2AA800A27E41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8857DCC262EC9726FD849C8 /* Pods-FaceChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q69A544BPS;
@@ -300,6 +474,7 @@
 				E91E00271E3C2AA800A27E41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
