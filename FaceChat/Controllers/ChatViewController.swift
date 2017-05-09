@@ -166,15 +166,7 @@ class ChatViewController: UIViewController, GrowingTextViewDelegate{
         //Subscribing to the "visageFaceDetectedNotification" (for a list of all available notifications check out the "ReadMe" or switch to "Visage.swift") and reacting to it with a completionHandler. You can also use the other .addObserver-Methods to react to notifications.
         NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "visageFaceDetectedNotification"), object: nil, queue: OperationQueue.main, using: { notification in
             
-            if ((self.visage!.hasSmile == true && self.visage!.isWinking == true)) {
-                self.showingType = "smileAndWinking"
-                self.isShowing = true
-                self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "You: 😜", style: .plain, target: nil, action: nil)
-            } else if ((self.visage!.isWinking == true && self.visage!.hasSmile == false)) {
-                self.showingType = "winking"
-                self.isShowing = true
-                self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "You: 😉", style: .plain, target: nil, action: nil)
-            } else if ((self.visage!.hasSmile == true && self.visage!.isWinking == false)) {
+            if ((self.visage!.hasSmile == true && self.visage!.isWinking == false)) {
                 self.showingType = "smile"
                 self.isShowing = true
                 self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "You: 😃", style: .plain, target: nil, action: nil)
